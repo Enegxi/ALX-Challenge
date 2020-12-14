@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+}
+
+footer {
+    height: 100px;
+    font-family: 'Open Sans', sans-serif;
+    color: #ff0b0b;
+    padding: 20px;
+}
